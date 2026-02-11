@@ -39,13 +39,14 @@ export default function FinalCTA() {
               </motion.div>
 
               <h2 className="font-display text-3xl sm:text-4xl lg:text-5xl font-bold mb-4">
-                Ready to unlock your{' '}
-                <span className="gradient-text">next level</span>?
+                Stop waiting on a system{' '}
+                <br className="hidden sm:block" />
+                <span className="gradient-text">that doesn't want you.</span>
               </h2>
 
               <p className="text-gray-400 text-lg max-w-xl mx-auto mb-10 leading-relaxed">
-                Apply in minutes — get an offer based on your actual earnings.
-                No credit checks, no banks, no BS.
+                You've built something real. Get the capital to match — based
+                on your actual earnings, not a credit score. Funded in days.
               </p>
 
               <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
@@ -60,7 +61,7 @@ export default function FinalCTA() {
               </div>
 
               <p className="mt-8 text-sm text-gray-500">
-                Takes less than 5 minutes • No commitment required • Offer within 24 hours
+                5-minute application • No commitment • No credit check • Offer within 24 hours
               </p>
             </div>
           </div>

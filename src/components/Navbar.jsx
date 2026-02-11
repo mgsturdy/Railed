@@ -123,7 +123,7 @@ export default function Navbar() {
               className="flex items-center justify-center gap-2 w-full py-4 bg-gradient-to-r from-purple-deep via-purple-mid to-magenta text-white font-bold rounded-2xl shadow-2xl shadow-purple-deep/40 animate-pulse-glow"
             >
               <Zap className="w-5 h-5" />
-              Apply Now — No Credit Check
+              Get Your Advance
             </a>
           </motion.div>
         )}

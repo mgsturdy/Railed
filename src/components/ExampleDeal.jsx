@@ -5,33 +5,33 @@ import { DollarSign, TrendingUp, Percent, Clock, CheckCircle2, AlertCircle } fro
 const dealItems = [
   {
     icon: DollarSign,
-    label: 'Advance Amount',
+    label: 'You Receive',
     value: '$40,000',
-    sublabel: 'Cash upfront to grow your brand',
+    sublabel: 'Upfront capital, your account',
   },
   {
     icon: TrendingUp,
     label: 'Factor Rate',
     value: '1.35×',
-    sublabel: 'Simple, transparent pricing',
+    sublabel: 'One number, fully transparent',
   },
   {
     icon: DollarSign,
     label: 'Total to Repay',
     value: '$54,000',
-    sublabel: 'All-in cost, no hidden fees',
+    sublabel: 'All-in. No hidden fees. No interest.',
   },
   {
     icon: Percent,
     label: 'Revenue Share',
     value: '13%',
-    sublabel: 'Of your creator revenue',
+    sublabel: 'Of your platform earnings',
   },
   {
     icon: Clock,
     label: 'Estimated Payoff',
     value: '~6 months',
-    sublabel: 'No hard end date',
+    sublabel: 'No hard deadline',
   },
 ]
 
@@ -54,14 +54,15 @@ export default function ExampleDeal() {
           className="text-center mb-16"
         >
           <span className="inline-block px-4 py-1.5 rounded-full text-sm font-medium bg-magenta/10 text-magenta-light border border-magenta/20 mb-4">
-            Transparent Pricing
+            No Hidden Math
           </span>
           <h2 className="font-display text-3xl sm:text-4xl lg:text-5xl font-bold mb-4">
-            See a{' '}
-            <span className="gradient-text">real example deal</span>
+            Here's what a{' '}
+            <span className="gradient-text">real deal looks like</span>
           </h2>
           <p className="text-gray-400 max-w-2xl mx-auto text-lg">
-            No confusing terms. Here's exactly what a typical deal looks like.
+            One factor rate. One repayment percentage. No compounding interest,
+            no fine print, no surprises six months in.
           </p>
         </motion.div>
 
@@ -83,8 +84,8 @@ export default function ExampleDeal() {
                   <DollarSign className="w-5 h-5 text-white" />
                 </div>
                 <div>
-                  <h3 className="font-display text-lg font-semibold">Sample Creator Deal</h3>
-                  <p className="text-sm text-gray-500">Based on $8K–10K/month creator revenue</p>
+                  <h3 className="font-display text-lg font-semibold">Sample Advance</h3>
+                  <p className="text-sm text-gray-500">Creator earning $8K–10K/month across platforms</p>
                 </div>
               </div>
 
@@ -118,11 +119,11 @@ export default function ExampleDeal() {
                 <CheckCircle2 className="w-6 h-6 text-green-400 flex-shrink-0 mt-0.5" />
                 <div>
                   <p className="font-semibold text-white mb-1">
-                    100% percentage-based — no fixed daily amount
+                    100% percentage-based — your payments flex with your income
                   </p>
                   <p className="text-sm text-gray-400">
-                    Earn more → pay faster. Slow month → payments flex down automatically.
-                    No penalties, no stress. Your success is our success.
+                    Big month? You pay it down faster. Slow month? Payments drop automatically.
+                    No penalties, no stress. We only win when you do.
                   </p>
                 </div>
               </div>

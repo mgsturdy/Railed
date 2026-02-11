@@ -4,27 +4,27 @@ import { Star, Quote } from 'lucide-react'
 
 const testimonials = [
   {
-    quote: 'Doubled my setup budget in a week — worth every percent. The flexibility to pay based on what I earn is a game changer.',
+    quote: "I make six figures a year and couldn't get a $5K credit card. Railed looked at my actual earnings and funded me in four days. That's how it should work.",
     name: 'Jade M.',
     handle: '@jadecreates',
     avatar: 'JM',
-    revenue: '$12K/mo revenue',
+    revenue: '$12K/mo across platforms',
     gradient: 'from-purple-light to-magenta',
   },
   {
-    quote: 'No credit check, no banks, no BS. I got funded in 3 days and reinvested in better content. Already seeing the ROI.',
+    quote: "No credit check, no explaining what I do to a loan officer, no BS. Just my payout history and a clear offer. Reinvested everything into better content.",
     name: 'Marcus T.',
     handle: '@marcustopx',
     avatar: 'MT',
-    revenue: '$8K/mo revenue',
+    revenue: '$8K/mo across platforms',
     gradient: 'from-magenta to-magenta-light',
   },
   {
-    quote: 'Finally, someone who gets how creator income works. Slow month? Payments drop. Good month? I pay it off faster. Simple.',
+    quote: "The percentage-based repayment is what sold me. Slow month, payments drop. Good month, I pay it off faster. Finally someone who gets how this income works.",
     name: 'Ava R.',
     handle: '@avarealones',
     avatar: 'AR',
-    revenue: '$22K/mo revenue',
+    revenue: '$22K/mo across platforms',
     gradient: 'from-purple-deep to-purple-light',
   },
 ]
@@ -91,14 +91,14 @@ export default function Testimonials() {
           className="text-center mb-16"
         >
           <span className="inline-block px-4 py-1.5 rounded-full text-sm font-medium bg-purple-deep/30 text-purple-light border border-purple-deep/50 mb-4">
-            Creator Stories
+            From Creators Who've Been There
           </span>
           <h2 className="font-display text-3xl sm:text-4xl lg:text-5xl font-bold mb-4">
-            Trusted by creators{' '}
-            <span className="gradient-text">who scale</span>
+            The banks said no.{' '}
+            <span className="gradient-text">We said let's go.</span>
           </h2>
           <p className="text-gray-400 max-w-2xl mx-auto text-lg">
-            Hear from creators who used Railed to invest in their growth.
+            Real creators who were tired of being ignored by traditional finance.
           </p>
         </motion.div>
 

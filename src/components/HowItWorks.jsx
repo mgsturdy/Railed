@@ -6,30 +6,30 @@ const steps = [
   {
     number: '01',
     icon: FileText,
-    title: 'Submit Your Statements',
+    title: 'Share Your Earnings',
     description:
-      'Share your recent platform payout history (3–6 months). Quick, secure, and confidential.',
+      "Connect your platform accounts or share 3–6 months of payout history. Quick, secure, completely confidential.",
   },
   {
     number: '02',
     icon: BarChart3,
-    title: 'We Analyze & Send an Offer',
+    title: 'Get a Clear Offer',
     description:
-      'Our team reviews your earnings and sends you a clear, transparent offer — no hidden fees, no surprises.',
+      "We review your revenue and send a straightforward offer — the advance amount, the total cost, and the repayment percentage. No surprises.",
   },
   {
     number: '03',
     icon: Banknote,
-    title: 'Accept & Get Funded',
+    title: 'Get Funded',
     description:
-      'Sign off on your terms and receive your capital — usually within days, straight to your account.',
+      "Accept your terms and capital hits your account — usually within days. No bank approvals, no waiting around.",
   },
   {
     number: '04',
     icon: Repeat,
     title: 'Repay as You Earn',
     description:
-      "We take an agreed percentage of your platform deposits until the total payback is complete. That's it.",
+      "A fixed percentage of your platform deposits goes toward repayment until the total is covered. Earn more, pay it off faster. That's it.",
   },
 ]
 
@@ -92,15 +92,16 @@ export default function HowItWorks() {
             className="lg:sticky lg:top-32"
           >
             <span className="inline-block px-4 py-1.5 rounded-full text-sm font-medium bg-purple-deep/30 text-purple-light border border-purple-deep/50 mb-4">
-              Simple 4-Step Process
+              Four Steps. That's It.
             </span>
             <h2 className="font-display text-3xl sm:text-4xl lg:text-5xl font-bold mb-6">
-              From application to{' '}
+              From earnings to{' '}
               <span className="gradient-text">funded in days</span>
             </h2>
             <p className="text-gray-400 text-lg leading-relaxed mb-8">
-              No lengthy paperwork. No credit bureaus. Just your platform
-              earnings history and a straightforward process.
+              No lengthy applications. No credit bureaus. No bank that
+              doesn't understand what you do. Just your revenue history
+              and a straightforward process.
             </p>
             <div className="glass rounded-2xl p-6">
               <div className="flex items-center gap-3 mb-3">

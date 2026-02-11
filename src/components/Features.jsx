@@ -11,38 +11,38 @@ import {
 
 const features = [
   {
-    icon: PercentCircle,
-    title: 'No Fixed Daily Payments',
+    icon: CreditCard,
+      title: "Banks Don't Get Creator Income",
     description:
-      'Pure revenue percentage. You pay more when you earn more, less when you earn less. Zero fixed daily debits draining your account.',
+      "Irregular deposits, platform payouts, multiple revenue streams — banks see risk. We see a thriving business. Your earnings are your credit.",
     gradient: 'from-purple-light to-purple-mid',
   },
   {
-    icon: ShieldCheck,
-    title: 'True Factoring — Not a Loan',
+    icon: PercentCircle,
+      title: "No Fixed Payments. Ever.",
     description:
-      'We purchase a portion of your future receivables. This is factoring, not lending — structured to avoid usury laws and protect you.',
+      "You repay as a percentage of what you earn. Big month? You pay more. Slow month? It flexes down. Zero fixed daily debits draining your account.",
     gradient: 'from-magenta to-magenta-light',
   },
   {
-    icon: Rocket,
-    title: 'Fast Approval & Funding',
+    icon: ShieldCheck,
+    title: "It's Not a Loan",
     description:
-      'Submit your platform payout history and get an offer fast. No lengthy bank processes. Funded in days, not weeks.',
+      "We purchase a portion of your future receivables. It's called factoring — no interest rates, no debt on your record, no usury concerns.",
     gradient: 'from-purple-deep to-purple-light',
   },
   {
-    icon: Repeat,
-    title: 'Flexible & No Penalties',
+    icon: Rocket,
+    title: 'Funded in Days, Not Weeks',
     description:
-      'Pay faster when you earn more — no prepayment penalties. Slow month? Your payments flex down automatically.',
+      "No bank committees. No 30-day review cycles. Share your payout history, get an offer fast, and have capital in your account within days.",
     gradient: 'from-purple-mid to-magenta',
   },
   {
-    icon: CreditCard,
-    title: 'Creator-First Revenue Coverage',
+    icon: Repeat,
+    title: 'Every Platform. Every Revenue Stream.',
     description:
-      'We understand adult creator platforms: subscriptions, PPV, tips, referrals — all counted toward your earnings for maximum funding.',
+      "Subscriptions, PPV, tips, customs, referrals — we count it all, across every major creator platform. More revenue recognized means a bigger advance.",
     gradient: 'from-magenta-light to-purple-light',
   },
 ]
@@ -97,15 +97,17 @@ export default function Features() {
           className="text-center mb-16"
         >
           <span className="inline-block px-4 py-1.5 rounded-full text-sm font-medium bg-purple-deep/30 text-purple-light border border-purple-deep/50 mb-4">
-            Why Creators Choose Railed
+            Built for Creators Banks Ignore
           </span>
           <h2 className="font-display text-3xl sm:text-4xl lg:text-5xl font-bold mb-4">
-            Capital that{' '}
-            <span className="gradient-text">works like you do</span>
+            The banking system is broken{' '}
+            <br className="hidden sm:block" />
+            for creators.{' '}
+            <span className="gradient-text">We fixed it.</span>
           </h2>
           <p className="text-gray-400 max-w-2xl mx-auto text-lg">
-            No fixed payments. No credit checks. Just fast, flexible funding that
-            scales with your creator revenue.
+            You earn real money. You deserve real financial tools.
+            Railed gives you advances against your actual revenue — across every platform.
           </p>
         </motion.div>
 

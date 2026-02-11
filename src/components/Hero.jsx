@@ -61,7 +61,7 @@ export default function Hero() {
           >
             <div className="w-2 h-2 rounded-full bg-green-400 animate-pulse" />
             <span className="text-sm text-gray-300">
-              Like DoorDash Capital, but made for adult creators
+              Advances against earnings on every creator platform
             </span>
           </motion.div>
 
@@ -72,11 +72,9 @@ export default function Hero() {
             transition={{ duration: 0.7, delay: 0.1 }}
             className="font-display text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-[1.1] tracking-tight mb-6"
           >
-            Fast Capital for{' '}
+            You Make Great Money.{' '}
             <br className="hidden sm:block" />
-            Adult Creators{' '}
-            <br className="hidden sm:block" />
-            <span className="gradient-text">—&nbsp;No Loans, No Fixed&nbsp;Payments</span>
+            <span className="gradient-text">Banks Still Won't Touch&nbsp;You.</span>
           </motion.h1>
 
           {/* Subheadline */}
@@ -86,8 +84,10 @@ export default function Hero() {
             transition={{ duration: 0.7, delay: 0.2 }}
             className="text-lg sm:text-xl text-gray-400 max-w-2xl mx-auto mb-10 leading-relaxed"
           >
-            Get funded in days. Repay only a percentage of your future earnings.
-            Built for creators who scale fast.
+            The banking system wasn't built for creators. Railed was.
+            We advance capital against your earnings on every major creator
+            platform — and you repay as a simple percentage of revenue.
+            No loans. No fixed payments.
           </motion.p>
 
           {/* CTAs */}
@@ -102,7 +102,7 @@ export default function Hero() {
               className="glow-button relative z-10 group inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-purple-deep via-purple-mid to-magenta text-white font-bold text-lg rounded-full shadow-2xl shadow-purple-deep/30 hover:shadow-magenta/30 transition-all duration-300 hover:scale-105"
             >
               <Zap className="w-5 h-5" />
-              Apply Now — No Credit Check
+              Get Your Advance
               <ArrowRight className="w-5 h-5 transition-transform group-hover:translate-x-1" />
             </a>
             <a
@@ -123,17 +123,17 @@ export default function Hero() {
           >
             <div className="flex items-center gap-2">
               <ShieldCheck className="w-4 h-4 text-green-400" />
-              <span>No personal credit check</span>
+              <span>No credit checks</span>
             </div>
             <div className="w-1 h-1 rounded-full bg-gray-600 hidden sm:block" />
             <div className="flex items-center gap-2">
               <ShieldCheck className="w-4 h-4 text-green-400" />
-              <span>Revenue-based repayment</span>
+              <span>Every major creator platform</span>
             </div>
             <div className="w-1 h-1 rounded-full bg-gray-600 hidden sm:block" />
             <div className="flex items-center gap-2">
               <ShieldCheck className="w-4 h-4 text-green-400" />
-              <span>Funded in days</span>
+              <span>Funded in days, not weeks</span>
             </div>
           </motion.div>
         </div>
