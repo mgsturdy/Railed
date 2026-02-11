@@ -8,7 +8,7 @@ const steps = [
     icon: FileText,
     title: 'Submit Your Statements',
     description:
-      'Share your recent OnlyFans payout history (3–6 months). Quick, secure, and confidential.',
+      'Share your recent platform payout history (3–6 months). Quick, secure, and confidential.',
   },
   {
     number: '02',
@@ -29,7 +29,7 @@ const steps = [
     icon: Repeat,
     title: 'Repay as You Earn',
     description:
-      "We take an agreed percentage of your OnlyFans deposits until the total payback is complete. That's it.",
+      "We take an agreed percentage of your platform deposits until the total payback is complete. That's it.",
   },
 ]
 
@@ -99,7 +99,7 @@ export default function HowItWorks() {
               <span className="gradient-text">funded in days</span>
             </h2>
             <p className="text-gray-400 text-lg leading-relaxed mb-8">
-              No lengthy paperwork. No credit bureaus. Just your OnlyFans
+              No lengthy paperwork. No credit bureaus. Just your platform
               earnings history and a straightforward process.
             </p>
             <div className="glass rounded-2xl p-6">

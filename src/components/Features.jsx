@@ -28,7 +28,7 @@ const features = [
     icon: Rocket,
     title: 'Fast Approval & Funding',
     description:
-      'Submit your OnlyFans payout history and get an offer fast. No lengthy bank processes. Funded in days, not weeks.',
+      'Submit your platform payout history and get an offer fast. No lengthy bank processes. Funded in days, not weeks.',
     gradient: 'from-purple-deep to-purple-light',
   },
   {
@@ -42,7 +42,7 @@ const features = [
     icon: CreditCard,
     title: 'Creator-First Revenue Coverage',
     description:
-      'We understand OnlyFans: subscriptions, PPV, tips, referrals — all counted toward your earnings for maximum funding.',
+      'We understand adult creator platforms: subscriptions, PPV, tips, referrals — all counted toward your earnings for maximum funding.',
     gradient: 'from-magenta-light to-purple-light',
   },
 ]
@@ -105,7 +105,7 @@ export default function Features() {
           </h2>
           <p className="text-gray-400 max-w-2xl mx-auto text-lg">
             No fixed payments. No credit checks. Just fast, flexible funding that
-            scales with your OnlyFans revenue.
+            scales with your creator revenue.
           </p>
         </motion.div>
 

@@ -61,7 +61,7 @@ export default function Hero() {
           >
             <div className="w-2 h-2 rounded-full bg-green-400 animate-pulse" />
             <span className="text-sm text-gray-300">
-              Like DoorDash Capital, but made for OnlyFans
+              Like DoorDash Capital, but made for adult creators
             </span>
           </motion.div>
 
@@ -74,7 +74,7 @@ export default function Hero() {
           >
             Fast Capital for{' '}
             <br className="hidden sm:block" />
-            OnlyFans Creators{' '}
+            Adult Creators{' '}
             <br className="hidden sm:block" />
             <span className="gradient-text">—&nbsp;No Loans, No Fixed&nbsp;Payments</span>
           </motion.h1>

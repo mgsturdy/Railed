@@ -25,7 +25,7 @@ const dealItems = [
     icon: Percent,
     label: 'Revenue Share',
     value: '13%',
-    sublabel: 'Of your OnlyFans revenue',
+    sublabel: 'Of your creator revenue',
   },
   {
     icon: Clock,
@@ -84,7 +84,7 @@ export default function ExampleDeal() {
                 </div>
                 <div>
                   <h3 className="font-display text-lg font-semibold">Sample Creator Deal</h3>
-                  <p className="text-sm text-gray-500">Based on $8K–10K/month OnlyFans revenue</p>
+                  <p className="text-sm text-gray-500">Based on $8K–10K/month creator revenue</p>
                 </div>
               </div>
 
