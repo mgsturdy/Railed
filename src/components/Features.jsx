@@ -6,43 +6,44 @@ import {
   ShieldCheck,
   Rocket,
   Repeat,
-  CreditCard,
+  Target,
+  Ban,
 } from 'lucide-react'
 
 const features = [
   {
-    icon: CreditCard,
-      title: "Banks Don't Get Creator Income",
+    icon: Ban,
+    title: "Built for Restricted Categories",
     description:
-      "Irregular deposits, platform payouts, multiple revenue streams — banks see risk. We see a thriving business. Your earnings are your credit.",
+      "Cannabis, gambling, adult entertainment, alcohol, CBD, vaping — we specialize in the industries that banks and traditional lenders won't touch.",
     gradient: 'from-purple-light to-purple-mid',
   },
   {
-    icon: PercentCircle,
-      title: "No Fixed Payments. Ever.",
+    icon: Target,
+    title: "Finance Your UA Spend Directly",
     description:
-      "You repay as a percentage of what you earn. Big month? You pay more. Slow month? It flexes down. Zero fixed daily debits draining your account.",
+      "Paid social, programmatic, influencer, affiliate, SEO — get the capital to scale the acquisition channels that are actually working for you.",
     gradient: 'from-magenta to-magenta-light',
   },
   {
     icon: ShieldCheck,
-    title: "It's Not a Loan",
+    title: "Not a Loan. No Debt.",
     description:
-      "We purchase a portion of your future receivables. It's called factoring — no interest rates, no debt on your record, no usury concerns.",
+      "We purchase a portion of your future receivables. It's factoring — no interest rates, no debt on your balance sheet, no usury concerns.",
     gradient: 'from-purple-deep to-purple-light',
   },
   {
-    icon: Rocket,
-    title: 'Funded in Days, Not Weeks',
+    icon: PercentCircle,
+    title: "Repay as a % of Revenue",
     description:
-      "No bank committees. No 30-day review cycles. Share your payout history, get an offer fast, and have capital in your account within days.",
+      "No fixed daily debits. You repay as a percentage of what you earn. Revenue up? Pay it down faster. Slow period? Payments flex down automatically.",
     gradient: 'from-purple-mid to-magenta',
   },
   {
-    icon: Repeat,
-    title: 'Every Platform. Every Revenue Stream.',
+    icon: Rocket,
+    title: "Funded in Days, Not Quarters",
     description:
-      "Subscriptions, PPV, tips, customs, referrals — we count it all, across every major creator platform. More revenue recognized means a bigger advance.",
+      "No bank committees. No months-long diligence. Share your revenue and UA data, get an offer fast, and have capital deployed within days.",
     gradient: 'from-magenta-light to-purple-light',
   },
 ]
@@ -97,17 +98,17 @@ export default function Features() {
           className="text-center mb-16"
         >
           <span className="inline-block px-4 py-1.5 rounded-full text-sm font-medium bg-purple-deep/30 text-purple-light border border-purple-deep/50 mb-4">
-            Built for Creators Banks Ignore
+            Purpose-Built for Vice Industries
           </span>
           <h2 className="font-display text-3xl sm:text-4xl lg:text-5xl font-bold mb-4">
-            The banking system is broken{' '}
+            Your industry is legal.{' '}
             <br className="hidden sm:block" />
-            for creators.{' '}
-            <span className="gradient-text">We fixed it.</span>
+            Your growth capital{' '}
+            <span className="gradient-text">shouldn't be impossible.</span>
           </h2>
           <p className="text-gray-400 max-w-2xl mx-auto text-lg">
-            You earn real money. You deserve real financial tools.
-            Railed gives you advances against your actual revenue — across every platform.
+            Banks won't lend to you. Ad platforms restrict you. Railed gives you
+            the UA financing to scale — repaid as a percentage of your revenue.
           </p>
         </motion.div>
 

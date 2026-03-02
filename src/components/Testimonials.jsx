@@ -4,27 +4,27 @@ import { Star, Quote } from 'lucide-react'
 
 const testimonials = [
   {
-    quote: "I make six figures a year and couldn't get a $5K credit card. Railed looked at my actual earnings and funded me in four days. That's how it should work.",
-    name: 'Jade M.',
-    handle: '@jadecreates',
-    avatar: 'JM',
-    revenue: '$12K/mo across platforms',
+    quote: "Every bank we talked to said no the second they heard 'cannabis.' Railed looked at our revenue, our ROAS, and funded our UA in under a week. We 3x'd paid acquisition that quarter.",
+    name: 'Derek L.',
+    handle: 'CBD / Cannabis Brand',
+    avatar: 'DL',
+    revenue: '$400K/mo revenue',
     gradient: 'from-purple-light to-magenta',
   },
   {
-    quote: "No credit check, no explaining what I do to a loan officer, no BS. Just my payout history and a clear offer. Reinvested everything into better content.",
-    name: 'Marcus T.',
-    handle: '@marcustopx',
-    avatar: 'MT',
-    revenue: '$8K/mo across platforms',
+    quote: "We had profitable unit economics and no one would finance our growth. Railed understood the model instantly. Revenue-based repayment means we never stress about a slow month.",
+    name: 'Samira K.',
+    handle: 'iGaming Operator',
+    avatar: 'SK',
+    revenue: '$1.2M/mo revenue',
     gradient: 'from-magenta to-magenta-light',
   },
   {
-    quote: "The percentage-based repayment is what sold me. Slow month, payments drop. Good month, I pay it off faster. Finally someone who gets how this income works.",
-    name: 'Ava R.',
-    handle: '@avarealones',
-    avatar: 'AR',
-    revenue: '$22K/mo across platforms',
+    quote: "Traditional lenders wanted personal guarantees and wouldn't touch our industry. Railed gave us $200K for UA based purely on our revenue history. Paid it back in four months.",
+    name: 'James R.',
+    handle: 'Adult Entertainment Platform',
+    avatar: 'JR',
+    revenue: '$600K/mo revenue',
     gradient: 'from-purple-deep to-purple-light',
   },
 ]
@@ -91,14 +91,14 @@ export default function Testimonials() {
           className="text-center mb-16"
         >
           <span className="inline-block px-4 py-1.5 rounded-full text-sm font-medium bg-purple-deep/30 text-purple-light border border-purple-deep/50 mb-4">
-            From Creators Who've Been There
+            From Operators Who've Been There
           </span>
           <h2 className="font-display text-3xl sm:text-4xl lg:text-5xl font-bold mb-4">
             The banks said no.{' '}
-            <span className="gradient-text">We said let's go.</span>
+            <span className="gradient-text">We funded their growth.</span>
           </h2>
           <p className="text-gray-400 max-w-2xl mx-auto text-lg">
-            Real creators who were tired of being ignored by traditional finance.
+            Vice industry operators who scaled UA with Railed capital.
           </p>
         </motion.div>
 

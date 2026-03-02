@@ -39,14 +39,15 @@ export default function FinalCTA() {
               </motion.div>
 
               <h2 className="font-display text-3xl sm:text-4xl lg:text-5xl font-bold mb-4">
-                Stop waiting on a system{' '}
+                Stop letting banks{' '}
                 <br className="hidden sm:block" />
-                <span className="gradient-text">that doesn't want you.</span>
+                <span className="gradient-text">cap your growth.</span>
               </h2>
 
               <p className="text-gray-400 text-lg max-w-xl mx-auto mb-10 leading-relaxed">
-                You've built something real. Get the capital to match — based
-                on your actual earnings, not a credit score. Funded in days.
+                You have the unit economics. You have the channels. You just need
+                the capital to scale. Get a UA financing offer based on your
+                actual revenue — funded in days.
               </p>
 
               <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
@@ -55,13 +56,13 @@ export default function FinalCTA() {
                   className="glow-button relative z-10 group inline-flex items-center gap-3 px-10 py-5 bg-gradient-to-r from-purple-deep via-purple-mid to-magenta text-white font-bold text-lg rounded-full shadow-2xl shadow-purple-deep/40 hover:shadow-magenta/40 transition-all duration-300 hover:scale-105"
                 >
                   <Zap className="w-5 h-5" />
-                  Start Application
+                  Fund Your UA
                   <ArrowRight className="w-5 h-5 transition-transform group-hover:translate-x-1" />
                 </a>
               </div>
 
               <p className="mt-8 text-sm text-gray-500">
-                5-minute application • No commitment • No credit check • Offer within 24 hours
+                10-minute application • No commitment • Revenue-based underwriting • Offer within 48 hours
               </p>
             </div>
           </div>

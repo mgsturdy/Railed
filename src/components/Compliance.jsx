@@ -46,7 +46,7 @@ export default function Compliance() {
                     Trust & Compliance
                   </h2>
                   <p className="text-sm text-gray-400">
-                    Just because banks ignore you doesn't mean the rules don't matter to us
+                    We operate in restricted categories — and we do it by the book
                   </p>
                 </div>
               </div>

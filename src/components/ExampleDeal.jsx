@@ -5,32 +5,32 @@ import { DollarSign, TrendingUp, Percent, Clock, CheckCircle2, AlertCircle } fro
 const dealItems = [
   {
     icon: DollarSign,
-    label: 'You Receive',
-    value: '$40,000',
-    sublabel: 'Upfront capital, your account',
+    label: 'UA Capital',
+    value: '$150,000',
+    sublabel: 'Deployed into your acquisition channels',
   },
   {
     icon: TrendingUp,
     label: 'Factor Rate',
-    value: '1.35×',
+    value: '1.30×',
     sublabel: 'One number, fully transparent',
   },
   {
     icon: DollarSign,
     label: 'Total to Repay',
-    value: '$54,000',
+    value: '$195,000',
     sublabel: 'All-in. No hidden fees. No interest.',
   },
   {
     icon: Percent,
     label: 'Revenue Share',
-    value: '13%',
-    sublabel: 'Of your platform earnings',
+    value: '10%',
+    sublabel: 'Of gross revenue until repaid',
   },
   {
     icon: Clock,
     label: 'Estimated Payoff',
-    value: '~6 months',
+    value: '~5 months',
     sublabel: 'No hard deadline',
   },
 ]
@@ -54,7 +54,7 @@ export default function ExampleDeal() {
           className="text-center mb-16"
         >
           <span className="inline-block px-4 py-1.5 rounded-full text-sm font-medium bg-magenta/10 text-magenta-light border border-magenta/20 mb-4">
-            No Hidden Math
+            Transparent Unit Economics
           </span>
           <h2 className="font-display text-3xl sm:text-4xl lg:text-5xl font-bold mb-4">
             Here's what a{' '}
@@ -62,7 +62,7 @@ export default function ExampleDeal() {
           </h2>
           <p className="text-gray-400 max-w-2xl mx-auto text-lg">
             One factor rate. One repayment percentage. No compounding interest,
-            no fine print, no surprises six months in.
+            no covenants, no surprises five months in.
           </p>
         </motion.div>
 
@@ -84,8 +84,8 @@ export default function ExampleDeal() {
                   <DollarSign className="w-5 h-5 text-white" />
                 </div>
                 <div>
-                  <h3 className="font-display text-lg font-semibold">Sample Advance</h3>
-                  <p className="text-sm text-gray-500">Creator earning $8K–10K/month across platforms</p>
+                  <h3 className="font-display text-lg font-semibold">Sample UA Financing Deal</h3>
+                  <p className="text-sm text-gray-500">Cannabis brand doing $300K+/month in revenue</p>
                 </div>
               </div>
 
@@ -119,11 +119,11 @@ export default function ExampleDeal() {
                 <CheckCircle2 className="w-6 h-6 text-green-400 flex-shrink-0 mt-0.5" />
                 <div>
                   <p className="font-semibold text-white mb-1">
-                    100% percentage-based — your payments flex with your income
+                    Revenue-based repayment — your payments scale with your business
                   </p>
                   <p className="text-sm text-gray-400">
-                    Big month? You pay it down faster. Slow month? Payments drop automatically.
-                    No penalties, no stress. We only win when you do.
+                    Revenue up? You pay it down faster. Slow quarter? Payments flex down automatically.
+                    No fixed daily debits, no penalties. Our upside is tied to yours.
                   </p>
                 </div>
               </div>

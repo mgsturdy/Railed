@@ -58,7 +58,7 @@ export default function Navbar() {
                 className="glow-button relative z-10 inline-flex items-center gap-2 px-5 py-2.5 bg-gradient-to-r from-purple-deep to-purple-mid text-white text-sm font-semibold rounded-full hover:from-purple-mid hover:to-magenta transition-all duration-300 shadow-lg shadow-purple-deep/25"
               >
                 <Zap className="w-4 h-4" />
-                Apply Now
+                Fund Your UA
               </a>
             </div>
 
@@ -101,7 +101,7 @@ export default function Navbar() {
                 className="inline-flex items-center gap-2 px-8 py-3 bg-gradient-to-r from-purple-deep to-magenta text-white font-semibold rounded-full"
               >
                 <Zap className="w-5 h-5" />
-                Apply Now
+                Fund Your UA
               </a>
             </div>
           </motion.div>
@@ -123,7 +123,7 @@ export default function Navbar() {
               className="flex items-center justify-center gap-2 w-full py-4 bg-gradient-to-r from-purple-deep via-purple-mid to-magenta text-white font-bold rounded-2xl shadow-2xl shadow-purple-deep/40 animate-pulse-glow"
             >
               <Zap className="w-5 h-5" />
-              Get Your Advance
+              Fund Your UA
             </a>
           </motion.div>
         )}

@@ -61,7 +61,7 @@ export default function Hero() {
           >
             <div className="w-2 h-2 rounded-full bg-green-400 animate-pulse" />
             <span className="text-sm text-gray-300">
-              Advances against earnings on every creator platform
+              Growth capital for cannabis, gambling, adult, alcohol & more
             </span>
           </motion.div>
 
@@ -72,9 +72,10 @@ export default function Hero() {
             transition={{ duration: 0.7, delay: 0.1 }}
             className="font-display text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-[1.1] tracking-tight mb-6"
           >
-            You Make Great Money.{' '}
+            UA Financing for the{' '}
             <br className="hidden sm:block" />
-            <span className="gradient-text">Banks Still Won't Touch&nbsp;You.</span>
+            Industries{' '}
+            <span className="gradient-text">Everyone Else Turns&nbsp;Away.</span>
           </motion.h1>
 
           {/* Subheadline */}
@@ -84,10 +85,10 @@ export default function Hero() {
             transition={{ duration: 0.7, delay: 0.2 }}
             className="text-lg sm:text-xl text-gray-400 max-w-2xl mx-auto mb-10 leading-relaxed"
           >
-            The banking system wasn't built for creators. Railed was.
-            We advance capital against your earnings on every major creator
-            platform — and you repay as a simple percentage of revenue.
-            No loans. No fixed payments.
+            Your industry is legal. Your growth shouldn't be capped by
+            banks and lenders that won't touch you. Railed finances your
+            user acquisition spend and you repay as a percentage of revenue.
+            Not a loan. Not a line of credit.
           </motion.p>
 
           {/* CTAs */}
@@ -102,7 +103,7 @@ export default function Hero() {
               className="glow-button relative z-10 group inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-purple-deep via-purple-mid to-magenta text-white font-bold text-lg rounded-full shadow-2xl shadow-purple-deep/30 hover:shadow-magenta/30 transition-all duration-300 hover:scale-105"
             >
               <Zap className="w-5 h-5" />
-              Get Your Advance
+              Fund Your UA
               <ArrowRight className="w-5 h-5 transition-transform group-hover:translate-x-1" />
             </a>
             <a
@@ -123,17 +124,17 @@ export default function Hero() {
           >
             <div className="flex items-center gap-2">
               <ShieldCheck className="w-4 h-4 text-green-400" />
-              <span>No credit checks</span>
+              <span>Vice-industry specialists</span>
             </div>
             <div className="w-1 h-1 rounded-full bg-gray-600 hidden sm:block" />
             <div className="flex items-center gap-2">
               <ShieldCheck className="w-4 h-4 text-green-400" />
-              <span>Every major creator platform</span>
+              <span>Revenue-based repayment</span>
             </div>
             <div className="w-1 h-1 rounded-full bg-gray-600 hidden sm:block" />
             <div className="flex items-center gap-2">
               <ShieldCheck className="w-4 h-4 text-green-400" />
-              <span>Funded in days, not weeks</span>
+              <span>Funded in days</span>
             </div>
           </motion.div>
         </div>

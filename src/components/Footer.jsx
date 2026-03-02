@@ -28,11 +28,11 @@ export default function Footer() {
         {/* Disclaimer */}
         <div className="mt-8 pt-8 border-t border-white/5">
           <p className="text-xs text-gray-600 max-w-4xl mx-auto text-center leading-relaxed">
-            Not a loan. No personal credit check. Funding is based on creator revenue history
-            across supported platforms. Terms vary by individual. Subject to approval and state
-            restrictions. Not available everywhere. Railed structures all transactions as purchases
-            of future receivables (factoring). This website does not constitute an offer to lend
-            or a solicitation for a loan. All funding decisions are subject to Railed's
+            Not a loan. Funding is based on business revenue history and unit economics.
+            Terms vary. Subject to approval, industry verification, and state restrictions. Not
+            available in all states or for all industries. Railed structures all transactions as
+            purchases of future receivables (factoring). This website does not constitute an offer
+            to lend or a solicitation for a loan. All funding decisions are subject to Railed's
             underwriting criteria and applicable state and federal regulations.
           </p>
         </div>

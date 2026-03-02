@@ -6,30 +6,30 @@ const steps = [
   {
     number: '01',
     icon: FileText,
-    title: 'Share Your Earnings',
+    title: 'Share Revenue & UA Data',
     description:
-      "Connect your platform accounts or share 3–6 months of payout history. Quick, secure, completely confidential.",
+      "Send us 3–6 months of revenue history and your current UA performance — CPA, ROAS, channel mix. Quick, secure, confidential.",
   },
   {
     number: '02',
     icon: BarChart3,
     title: 'Get a Clear Offer',
     description:
-      "We review your revenue and send a straightforward offer — the advance amount, the total cost, and the repayment percentage. No surprises.",
+      "We analyze your unit economics and send a straightforward offer — the capital amount, factor rate, and repayment percentage. No hidden terms.",
   },
   {
     number: '03',
     icon: Banknote,
-    title: 'Get Funded',
+    title: 'Deploy Capital',
     description:
-      "Accept your terms and capital hits your account — usually within days. No bank approvals, no waiting around.",
+      "Accept your terms and funding hits your account within days. Put it straight into the UA channels that are working.",
   },
   {
     number: '04',
     icon: Repeat,
     title: 'Repay as You Earn',
     description:
-      "A fixed percentage of your platform deposits goes toward repayment until the total is covered. Earn more, pay it off faster. That's it.",
+      "A fixed percentage of revenue goes toward repayment until the total is covered. Scale faster, pay it down faster. That's the whole model.",
   },
 ]
 
@@ -92,16 +92,16 @@ export default function HowItWorks() {
             className="lg:sticky lg:top-32"
           >
             <span className="inline-block px-4 py-1.5 rounded-full text-sm font-medium bg-purple-deep/30 text-purple-light border border-purple-deep/50 mb-4">
-              Four Steps. That's It.
+              Four Steps to Funded UA
             </span>
             <h2 className="font-display text-3xl sm:text-4xl lg:text-5xl font-bold mb-6">
-              From earnings to{' '}
-              <span className="gradient-text">funded in days</span>
+              From application to{' '}
+              <span className="gradient-text">capital deployed in days</span>
             </h2>
             <p className="text-gray-400 text-lg leading-relaxed mb-8">
-              No lengthy applications. No credit bureaus. No bank that
-              doesn't understand what you do. Just your revenue history
-              and a straightforward process.
+              No bank committees. No months of diligence. No explaining
+              your industry to people who don't want to understand it.
+              Just revenue, unit economics, and a clear offer.
             </p>
             <div className="glass rounded-2xl p-6">
               <div className="flex items-center gap-3 mb-3">
